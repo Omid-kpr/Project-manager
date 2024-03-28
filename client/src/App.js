@@ -4,8 +4,8 @@ import Header from "./components/Header";
 import Clients from './components/Clients';
 
 const cache = new InMemoryCache({
-  typepolicies: {
-    query: {
+  typePolicies: {
+    Query: {
       fields: {
         clients: {
           merge(existing, incoming) {
