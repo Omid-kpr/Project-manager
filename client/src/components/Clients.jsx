@@ -9,7 +9,7 @@ export default function Clients() {
     if (loading) return <Loading />
     else if (error) {
         console.log(error);
-        return <p>something went wrong</p>
+        return <p>مشکلی پیش آمد لطفا دوباره امتحان کنید</p>
     }
     else return (
         <table className="table table-hover mt-3">
