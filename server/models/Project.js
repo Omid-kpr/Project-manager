@@ -9,7 +9,7 @@ const ProjectSchema = new mongoose.Schema({
     },
     status: {
         type: String,
-        enum: ['Not Started', 'In Progress', 'Completed'],
+        enum: ['جدید', 'در حال انجام', 'تمام شده'],
     },
     clientId: {
         type: mongoose.Schema.Types.ObjectId,
