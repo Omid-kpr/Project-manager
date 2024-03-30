@@ -98,11 +98,11 @@ function AddClientModal() {
                         </Form.Group>
                         <div className='d-flex justify-content-end'>
                             <Button className='mx-2' variant="secondary" onClick={handleClose}>
-                                Close
+                                برگشت
                             </Button>
 
                             <Button className='mx-2' type='submit' variant="primary" onClick={handleClose}>
-                                Save Changes
+                                ذخیره تغییرات
                             </Button>
                         </div>
                     </Form>

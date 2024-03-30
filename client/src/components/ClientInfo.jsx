@@ -3,7 +3,7 @@ import { FaEnvelope, FaPhone, FaIdBadge } from 'react-icons/fa'
 export default function ClientInfo({ client }) {
     return (
         <>
-            <h5 className="mt-5 mb-4">مشخصات کاربر</h5>
+            <h5 className="mt-5 mb-4 ms-auto">مشخصات کاربر</h5>
             <ul className="list-group">
                 <li className="list-group-item">
                     <FaIdBadge className="icon" />
