@@ -1,5 +1,5 @@
 # Project-manager
-a project manager with graphQL node server and react frontend
+a project manager with graphQL Api mongoDb and node server and react frontend
 
 ![](images/home.jpg)
 ![](images/add-user.jpg)
